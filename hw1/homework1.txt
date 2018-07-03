@@ -1,0 +1,15 @@
+Question 1: 
+	The "ls -m" comman will list information about the files, and the width will be filled with comma separated list of entries.
+
+Question 2:
+	The full path of my home directory on this Linux system is /home/jichunli.
+
+Question 3:
+	Wed 20 Jun 2018 03:33:20 PM PDT
+
+Question 4:
+	Other users:
+	auser	lost+found
+
+Question 5:
+	The kernal release of Linux that this computer uses is 3.10.0-862.3.3.e17.x86-64.
