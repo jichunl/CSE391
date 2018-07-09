@@ -1,0 +1,60 @@
+ Question 1:
+	while(1) {
+
+	}
+
+Question 2:
+	a. int x;
+	b. int* x;
+	c. int** x;
+	d. int x [10];
+	e. int* x [10];
+	f. int(*x) [10];
+	g. int(*x)(int);
+	h. int(*x[10])(int);
+
+Question 3:
+	The static variable declared within the body of a function maintains
+its value between function invocations.
+	The static variable declared within a module is accessible by all the 
+function of that module but not the functions in other modules.
+	The static function declared within a module may be called by other 
+functions within that modules. The scope of the function is localized to the 
+function where it is declared.
+
+Question 4:
+	a. and b. are both constant integer. c. is a pointer to the constant 
+integer. d. is a constant pointer to an integer. e. is a constant pointer to 
+a constant integer. 
+
+Question 5:
+	A volatile variable can changed unexpectedly. Everytime the volatile
+variable is used the compiler will reload the value. 
+	a. A parameter can be both const and volatile. A read-only status 
+register can be the example since the it can change unexpectedly so it has to
+be volatile and it should be constant because it should not be modified.
+	b. A pointer could be volatile. An example could be an interrupt service modifies a pointer to a buffer.
+	c. The function intends to compute the square of the value that ptr
+points to. However, since ptr points to a volatile integer, so if the value 
+being pointed at changed during the execution, the result would if the value 
+being pointed at changed during the execution, the result would if the value 
+being pointed at changed during the execution, the result would be wrong.  
+
+Question 6:
+	The output of code is >6. It checks if a + b is greater than 6, if so 
+print ">6" to the console otherwise print "<=6". Since a is an unsigned int, 
+when it is added with a signed integer, the signed int will be converted to 
+unsigned int. So the result is greater than 6, and prints ">6".
+
+
+Question 7:
+	The construct is legal. It is equal to c= a++ + b. It increments
+the value of a after a + b is computed.
+
+Question 8:
+	The code is illegal for the following reasons:
+		1. Interrupt service routine cannot return a value.
+		2. Interrupt service routine cannot be passed with parameter
+
+Question 10:
+	The header file should include the wrapper #ifndef. 
