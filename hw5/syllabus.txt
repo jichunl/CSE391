@@ -1,0 +1,9 @@
+Grading
+
+This is a Credit / No Credit (CR/NC) course; you either pass or fail. Any student who completes at least 7 of the homework assignments adequately and earns a passing mark on the final exam will be considered to have "passed" the course. Our intention is that every student who makes a legitimate effort to learn and complete the material will pass the course. The class is intended to be low-stress and geared toward learning and exploration of concepts.
+
+Exams
+
+The final exam is open-book, open-notes. You may bring any written materials, such as textbooks, printed handouts, homework assignments, or programs. No electronic devices may be used, including calculators. The final exam is intended to be easier than final exams in multi-credit, graded CSE courses. Our intention is that any reasonable student who has attended the majority of lectures and completed the required number of assignments will be able to pass the final exam and earn credit for the course.
+
+Make-up exams will not be given except in case of a serious emergency. If you must miss the exam, even if you are sick or injured, you must contact the instructor before the exam (or arrange for someone to do so). You must show evidence that you are physically unable to take the exam, such as a doctor's note specifically mentioning this exam, before the exam. No make-ups will be granted for personal reasons such as travel, personal hardship, to ease your exam week schedule, or leisure. It is unlikely that a student will be given permission to take an exam early for any reason.
