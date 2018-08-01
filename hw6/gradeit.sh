@@ -14,11 +14,11 @@ echo ""
 for DIR in ./students/*; do
 	(
 	cd $DIR && STUDENT_NAME=${PWD##*/} && 
-	SCORE=50
+	SCORE=$1
 	FILE=gettysburg.sh
 	if [ -f $FILE ]; then
 		bash ./gettysburg.sh > output.txt
-		DIFF=$(diff -b ../../expected.txt ./output.txt | grep '^>' | wc -l)
+		DIFF=$(diff -w ../../expected.txt ./output.txt | grep '^>\|^<' | wc -l)
 		if [ $DIFF -eq 0 ]; then 
 			echo "$STUDENT_NAME has correct output"
 		else
@@ -38,7 +38,7 @@ for DIR in ./students/*; do
 		let SCORE=0
 		echo "$STUDENT_NAME did not turn in the assignment"
 	fi
-	echo "$STUDENT_NAME has earned a score of $SCORE / 50"
+	echo "$STUDENT_NAME has earned a score of $SCORE / $1"
 	echo ""
 	);
 done
