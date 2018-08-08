@@ -1,0 +1,12 @@
+Be careful about the difference between -l (the letter L) and -1 (the number one).  They are easy to confuse, say, when reading a writeup ;)
+
+Going forward, please remember to upload a file with the right format/extension (for example we specifically asked for homework1.txt).  It's handy for the catalyst turnin system, because when catalyst knows they are text files we can glance at them without downloading them.
+
+I think those were the main things, most everyone seemed to be on track.  Feel free to email me or drop by office hours if you have any specific questions regarding your assignment 1 commands.
+
+-Josh
+
+_______________________________________________
+Cse390a-announce mailing list
+Cse390a-announce@cs.washington.edu
+https://mailman.cs.washington.edu/mailman/listinfo/cse390a-announce

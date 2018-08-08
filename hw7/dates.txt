@@ -1,0 +1,7 @@
+Appointments:
+haircut   May 12, 2010
+party at Kris's house   June 19, 2011  (don't forget to bring food)
+sleep   never
+work in 002 lab      February 28, 1996 through October 24, 3099
+write CSE 390 homework assignment on December 25, 2012 (not on December 31, 2012)
+the end
