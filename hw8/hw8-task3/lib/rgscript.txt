@@ -1,0 +1,3 @@
+.class pacman.PacManApplet public
+.class pacman.PacManMain public
+

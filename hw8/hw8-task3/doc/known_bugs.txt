@@ -1,0 +1,36 @@
+MODEL BUGS
+ghosts still flash while game is "frozen" for ghost death sound
+- changed getGridX/Y to use Math.round instead of ceil--might be bad
+sometimes when you beat a level it takes away all your lives and says "you got a high score!"
+	should make it not take pacman's lives by updating during sound playing maybe?
+	(maybe when the ghosts are at your old location and you revive there so you "die" ??  dunno)
+pacman/ghost wrapping should move entirely off board then come back on it
+
+	
+STRATEGY BUGS
+looks like occasionally the pinky (turn strategy) er maybe actually orange (smart lookahead strategy) flies around real fast
+
+
+VIEW BUGS
+should make end-of-level sound not paused play
+fruit still flashes visible/invisible when game is paused
+
+
+TO IMPLEMENT
+netscape support - supposed mediatracker bug
+Implement frame skip - make code adjust based on achieved fps instead of hoped fps?
+search for *** tags
+write pacmania view
+fix moving fruit
+add between-level animations
+make actual game mechanics of mrs. / super pac-man
+
+add redefinable keyboard controls
+mrs. pac-man intro animation (should not be so bad)
+arcade view slow (esp. with image strip on jre1.1)
+as pacman is dying, a ghost escaping cage is visible and moves
+sound plays while paused
+strats that queue up moves (smart strat) get lost when they slow down to go through tunnel
+need to test clearing levels; I don't think it works because of that sprite-reduction crap
+factor in GRID_SIZE into move speeds; make grid size big
+new game seems to go back to empty level sometimes
